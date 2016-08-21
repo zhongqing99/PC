@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        /*ul{*/
+            /*/!*width: 900px;*!/*/
+            /*/!*height: 200px;*!/*/
+            /*/!*overflow: hidden;*!/*/
+            /*/!*position: relative;*!/*/
+        /*}*/
+        /*ul li{*/
+
+            /*float: left;*/
+            /*width: 200px;*/
+            /*height: 200px;*/
+            /*background: orange;*/
+            /*margin: 10px;*/
+
+        /*}*/
+        div{
+            display: none;
+            clear: both;
+            position: absolute;
+            z-index: 10;
+            width: 1349px;
+            /*height: 0;*/
+            /*transition: all 1s;*/
+            /*overflow: hidden;*/
+            background: orange;
+        }
+        p{
+            width: 100px;
+            height: 100px;
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+<div>123456
+    <p></p>
+</div>
+<input type="button"/>
+
+
+<script>
+    var div=document.getElementsByTagName('div')[0];
+    var input=document.getElementsByTagName('input')[0];
+    input.onclick=function(){
+        div.style.display='block';
+    }
+</script>
+
+
+
+
+
+
+<!--<ul>-->
+    <!--<li style="display: none"></li>-->
+    <!--<li></li>-->
+
+<!--</ul>-->
+<!--<div class="div1">-->
+    <!--<div></div>-->
+    <!--<div></div>-->
+    <!--<div></div>-->
+    <!--<div></div>-->
+<!--</div>-->
+</body>
+</html>

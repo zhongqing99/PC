@@ -1,0 +1,15 @@
+.slide1{
+    display: none;
+    width: 70px;
+    height: 110px;
+    position: absolute;
+    top:20px;
+    right: 0;
+}
+.slide1 .cont{
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-bottom: 6px solid white;
+    margin-left: 29px;
+}
